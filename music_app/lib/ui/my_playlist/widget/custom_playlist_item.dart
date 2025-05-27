@@ -42,8 +42,8 @@ class CustomPlaylistItem extends StatelessWidget {
               child: Text(
                 playlist.name,
                 style: const TextStyle(
-                  fontSize: 22,
-                  fontWeight: FontWeight.w600,
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
                 ),
                 overflow: TextOverflow.ellipsis,
               ),
